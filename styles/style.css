@@ -24,6 +24,14 @@
     justify-content: center;
     align-items:center;
 }
+.small-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.small-box div{
+    padding: 10px 0;
+}
 .padding{
     padding: 10px;
 }
@@ -32,4 +40,16 @@
 }
 #flex-start-row{
     justify-content: flex-start;
+}
+#flex-center-row{
+    justify-content: center;
+}
+#flex-end-row{
+    justify-content: flex-end;
+}
+#flex-space-around{
+    justify-content: space-around;
+}
+#flex-space-between{
+    justify-content: space-between;
 }
